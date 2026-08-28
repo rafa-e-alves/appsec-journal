@@ -141,6 +141,6 @@ Em quais outras situações do dia a dia eu já vi um GET fazendo algo que dever
 - `cat ./-arquivo` quando o nome começa com hífen (senão o shell lê como opção do comando)
 - `cat "nome com espaço"` — aspas protegem nomes com espaço ou caractere especial
 - `file arquivo` mostra o tipo de conteúdo ANTES de dar cat (evita jogar binário lixo no terminal)
-- <code>find . -size <strong>tamanho</strong>c</code> — busca por tamanho exato em bytes
-- <code>find / -user <strong>dono</strong> -group <strong>grupo</strong> -size <strong>tamanho</strong>c</code> — busca por dono, grupo e tamanho, a partir da raiz
-- <code>grep <strong>termo</strong> <strong>arquivo</strong></code> — busca um termo dentro de um arquivo
+- `find . -size `*`tamanho`*`c` — busca por tamanho exato em bytes
+- `find / -user `*`dono`*` -group `*`grupo`*` -size `*`tamanho`*`c` — busca por dono, grupo e tamanho, a partir da raiz
+- `grep `*`termo`*` `*`arquivo`* — busca um termo dentro de um arquivo
