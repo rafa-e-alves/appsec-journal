@@ -143,4 +143,4 @@ Em quais outras situações do dia a dia eu já vi um GET fazendo algo que dever
 - `file arquivo` mostra o tipo de conteúdo ANTES de dar cat (evita jogar binário lixo no terminal)
 - `find . -size `*`tamanho`*`c` — busca por tamanho exato em bytes
 - `find / -user `*`dono`*` -group `*`grupo`*` -size `*`tamanho`*`c` — busca por dono, grupo e tamanho, a partir da raiz
-- `grep `*`termo`*``*`arquivo`* — busca um termo dentro de um arquivo
+- `grep` *`termo`* *`arquivo`* — busca um termo dentro de um arquivo
