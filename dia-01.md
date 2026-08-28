@@ -135,11 +135,12 @@ Em quais outras situações do dia a dia eu já vi um GET fazendo algo que dever
 
 ---
 
-## Bandit — níveis 0 a 6
+## Bandit — níveis 0 a 7
 
 - `ls -a` mostra arquivos ocultos (começam com `.`)
 - `cat ./-arquivo` quando o nome começa com hífen (senão o shell lê como opção do comando)
 - `cat "nome com espaço"` — aspas protegem nomes com espaço ou caractere especial
 - `file arquivo` mostra o tipo de conteúdo ANTES de dar cat (evita jogar binário lixo no terminal)
-- `find . -size 1033c` — busca por tamanho exato em bytes
-- `find / -user X -group Y -size Nc` — busca combinando dono, grupo e tamanho, a partir da raiz
+- `find . -size `**`1033`**`c` — busca por tamanho exato em bytes
+- `find / -user `**`bandit7`**` -group `**`bandit6`**` -size `**`33`**`c` — busca por dono, grupo e tamanho, a partir da raiz
+- `grep `**`millionth`**` `**`data.txt`** — busca um termo dentro de um arquivo
